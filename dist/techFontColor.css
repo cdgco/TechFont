@@ -22,98 +22,28 @@
     color: #F0BF1A;
 }
 
+.tf-mongodb-pt1::before {
+    color: #BAC5C3;
+}
+
+.tf-mongodb-pt2::before {
+    color: #13AD50;
+}
+
+.tf-mongodb-pt3::before {
+    color: #0E9450;
+}
+
 .tf-background::before {
     color: #ddd;
 }
 
-.tf-elasticsearch-clr {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tf-elasticsearch-clr-b {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tf-elasticsearch-pt1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tf-elasticsearch-pt2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tf-elasticsearch-pt3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tf-elasticsearch-pt4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tf-elasticsearch-pt5 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tf-elasticsearch-pt6 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+[class^="tf-"][class*="-pt"],
+[class*=" tf-"][class*="-pt"],
+[class^="tf-"][class*="-clr"],
+[class*=" tf-"][class*="-clr"],
+[class^="tf-"][class*="-clr-b"],
+[class*=" tf-"][class*="-clr-b"],
 .tf-background {
     position: absolute;
     top: 0;

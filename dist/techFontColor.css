@@ -1,0 +1,126 @@
+.tf-elasticsearch-pt1::before {
+    color: #019B8F;
+}
+
+.tf-elasticsearch-pt2::before {
+    color: #D7A229;
+}
+
+.tf-elasticsearch-pt3::before {
+    color: #231F20;
+}
+
+.tf-elasticsearch-pt4::before {
+    color: #07A5DE;
+}
+
+.tf-elasticsearch-pt5::before {
+    color: #3EBEB0;
+}
+
+.tf-elasticsearch-pt6::before {
+    color: #F0BF1A;
+}
+
+.tf-background::before {
+    color: #ddd;
+}
+
+.tf-elasticsearch-clr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-elasticsearch-clr-b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-elasticsearch-pt1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-elasticsearch-pt2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-elasticsearch-pt3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-elasticsearch-pt4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-elasticsearch-pt5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-elasticsearch-pt6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

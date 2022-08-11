@@ -1,0 +1,243 @@
+@font-face {
+  font-display: auto;
+  font-family: "techFont";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./techFont.eot?1660250226096");
+  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660250226096") format("woff2"), url("./techFont.woff?1660250226096") format("woff"), url("./techFont.ttf?1660250226096") format("truetype"), url("./techFont.svg?1660250226096#techFont") format("svg");
+}
+
+.tf {
+  display: inline-block;
+  font-family: "techFont";
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tf-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.tf-xs {
+  font-size: 0.75em;
+}
+
+.tf-sm {
+  font-size: 0.875em;
+}
+
+.tf-1x {
+  font-size: 1em;
+}
+
+.tf-2x {
+  font-size: 2em;
+}
+
+.tf-3x {
+  font-size: 3em;
+}
+
+.tf-4x {
+  font-size: 4em;
+}
+
+.tf-5x {
+  font-size: 5em;
+}
+
+.tf-6x {
+  font-size: 6em;
+}
+
+.tf-7x {
+  font-size: 7em;
+}
+
+.tf-8x {
+  font-size: 8em;
+}
+
+.tf-9x {
+  font-size: 9em;
+}
+
+.tf-10x {
+  font-size: 10em;
+}
+
+.tf-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.tf-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.tf-pull-left {
+  float: left;
+}
+
+.tf-pull-right {
+  float: right;
+}
+
+.tf.tf-pull-left {
+  margin-right: 0.3em;
+}
+
+.tf.tf-pull-right {
+  margin-left: 0.3em;
+}
+
+
+.tf-background::before {
+  content: "\ea01";
+}
+
+.tf-bootstrap::before {
+  content: "\ea02";
+}
+
+.tf-bootstrap-b::before {
+  content: "\ea03";
+}
+
+.tf-c::before {
+  content: "\ea04";
+}
+
+.tf-c-b::before {
+  content: "\ea05";
+}
+
+.tf-cplusplus::before {
+  content: "\ea06";
+}
+
+.tf-cplusplus-b::before {
+  content: "\ea07";
+}
+
+.tf-elasticsearch::before {
+  content: "\ea08";
+}
+
+.tf-elasticsearch-b::before {
+  content: "\ea09";
+}
+
+.tf-elasticsearch-pt1::before {
+  content: "\ea0a";
+}
+
+.tf-elasticsearch-pt2::before {
+  content: "\ea0b";
+}
+
+.tf-elasticsearch-pt3::before {
+  content: "\ea0c";
+}
+
+.tf-elasticsearch-pt4::before {
+  content: "\ea0d";
+}
+
+.tf-elasticsearch-pt5::before {
+  content: "\ea0e";
+}
+
+.tf-elasticsearch-pt6::before {
+  content: "\ea0f";
+}
+
+.tf-electron::before {
+  content: "\ea10";
+}
+
+.tf-electron-b::before {
+  content: "\ea11";
+}
+
+.tf-express::before {
+  content: "\ea12";
+}
+
+.tf-express-b::before {
+  content: "\ea13";
+}
+
+.tf-handlebars::before {
+  content: "\ea14";
+}
+
+.tf-handlebars-b::before {
+  content: "\ea15";
+}
+
+.tf-jquery::before {
+  content: "\ea16";
+}
+
+.tf-jquery-b::before {
+  content: "\ea17";
+}
+
+.tf-mysql::before {
+  content: "\ea18";
+}
+
+.tf-mysql-b::before {
+  content: "\ea19";
+}
+
+.tf-nodejs::before {
+  content: "\ea1a";
+}
+
+.tf-nodejs-b::before {
+  content: "\ea1b";
+}
+
+.tf-opencl::before {
+  content: "\ea1c";
+}
+
+.tf-opencl-b::before {
+  content: "\ea1d";
+}
+
+.tf-php::before {
+  content: "\ea1e";
+}
+
+.tf-php-b::before {
+  content: "\ea1f";
+}
+
+.tf-puppeteer::before {
+  content: "\ea20";
+}
+
+.tf-puppeteer-b::before {
+  content: "\ea21";
+}
+
+.tf-socketio::before {
+  content: "\ea22";
+}
+
+.tf-socketio-b::before {
+  content: "\ea23";
+}
+

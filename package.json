@@ -1,0 +1,16 @@
+{
+    "name": "techfont",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "webfont": "node ./node_modules/webfont/dist/cli.js ./src/svg-icons/**/*.svg"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "tailwindcss": "^3.1.8",
+        "webfont": "^11.2.26"
+    }
+}

@@ -34,6 +34,14 @@
     color: #0E9450;
 }
 
+.tf-vue-pt1::before {
+    color: #34495E;
+}
+
+.tf-vue-pt2::before {
+    color: #40B883;
+}
+
 .tf-background::before {
     color: #ddd;
 }
@@ -43,9 +51,18 @@
 [class^="tf-"][class*="-clr"],
 [class*=" tf-"][class*="-clr"],
 [class^="tf-"][class*="-clr-b"],
-[class*=" tf-"][class*="-clr-b"],
-.tf-background {
+[class*=" tf-"][class*="-clr-b"] {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-background {
     top: 0;
     left: 0;
     width: 100%;

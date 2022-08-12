@@ -3,8 +3,8 @@
   font-family: "techFont";
   font-style: normal;
   font-weight: 400;
-  src: url("./techFont.eot?1660260205004");
-  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660260205004") format("woff2"), url("./techFont.woff?1660260205004") format("woff"), url("./techFont.ttf?1660260205004") format("truetype"), url("./techFont.svg?1660260205004#techFont") format("svg");
+  src: url("./techFont.eot?1660263417341");
+  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660263417341") format("woff2"), url("./techFont.woff?1660263417341") format("woff"), url("./techFont.ttf?1660263417341") format("truetype"), url("./techFont.svg?1660263417341#techFont") format("svg");
 }
 
 .tf {
@@ -105,159 +105,179 @@
   content: "\ea01";
 }
 
-.tf-bootstrap::before {
+.tf-blank::before {
   content: "\ea02";
 }
 
-.tf-bootstrap-b::before {
+.tf-bootstrap::before {
   content: "\ea03";
 }
 
-.tf-c::before {
+.tf-bootstrap-b::before {
   content: "\ea04";
 }
 
-.tf-c-b::before {
+.tf-c::before {
   content: "\ea05";
 }
 
-.tf-cplusplus::before {
+.tf-c-b::before {
   content: "\ea06";
 }
 
-.tf-cplusplus-b::before {
+.tf-cplusplus::before {
   content: "\ea07";
 }
 
-.tf-elasticsearch::before {
+.tf-cplusplus-b::before {
   content: "\ea08";
 }
 
-.tf-elasticsearch-b::before {
+.tf-elasticsearch::before {
   content: "\ea09";
 }
 
-.tf-elasticsearch-pt1::before {
+.tf-elasticsearch-b::before {
   content: "\ea0a";
 }
 
-.tf-elasticsearch-pt2::before {
+.tf-elasticsearch-pt1::before {
   content: "\ea0b";
 }
 
-.tf-elasticsearch-pt3::before {
+.tf-elasticsearch-pt2::before {
   content: "\ea0c";
 }
 
-.tf-elasticsearch-pt4::before {
+.tf-elasticsearch-pt3::before {
   content: "\ea0d";
 }
 
-.tf-elasticsearch-pt5::before {
+.tf-elasticsearch-pt4::before {
   content: "\ea0e";
 }
 
-.tf-elasticsearch-pt6::before {
+.tf-elasticsearch-pt5::before {
   content: "\ea0f";
 }
 
-.tf-electron::before {
+.tf-elasticsearch-pt6::before {
   content: "\ea10";
 }
 
-.tf-electron-b::before {
+.tf-electron::before {
   content: "\ea11";
 }
 
-.tf-express::before {
+.tf-electron-b::before {
   content: "\ea12";
 }
 
-.tf-express-b::before {
+.tf-express::before {
   content: "\ea13";
 }
 
-.tf-handlebars::before {
+.tf-express-b::before {
   content: "\ea14";
 }
 
-.tf-handlebars-b::before {
+.tf-handlebars::before {
   content: "\ea15";
 }
 
-.tf-jquery::before {
+.tf-handlebars-b::before {
   content: "\ea16";
 }
 
-.tf-jquery-b::before {
+.tf-jquery::before {
   content: "\ea17";
 }
 
-.tf-mongodb::before {
+.tf-jquery-b::before {
   content: "\ea18";
 }
 
-.tf-mongodb-b::before {
+.tf-mongodb::before {
   content: "\ea19";
 }
 
-.tf-mongodb-pt1::before {
+.tf-mongodb-b::before {
   content: "\ea1a";
 }
 
-.tf-mongodb-pt2::before {
+.tf-mongodb-pt1::before {
   content: "\ea1b";
 }
 
-.tf-mongodb-pt3::before {
+.tf-mongodb-pt2::before {
   content: "\ea1c";
 }
 
-.tf-mysql::before {
+.tf-mongodb-pt3::before {
   content: "\ea1d";
 }
 
-.tf-mysql-b::before {
+.tf-mysql::before {
   content: "\ea1e";
 }
 
-.tf-nodejs::before {
+.tf-mysql-b::before {
   content: "\ea1f";
 }
 
-.tf-nodejs-b::before {
+.tf-nodejs::before {
   content: "\ea20";
 }
 
-.tf-opencl::before {
+.tf-nodejs-b::before {
   content: "\ea21";
 }
 
-.tf-opencl-b::before {
+.tf-opencl::before {
   content: "\ea22";
 }
 
-.tf-php::before {
+.tf-opencl-b::before {
   content: "\ea23";
 }
 
-.tf-php-b::before {
+.tf-php::before {
   content: "\ea24";
 }
 
-.tf-puppeteer::before {
+.tf-php-b::before {
   content: "\ea25";
 }
 
-.tf-puppeteer-b::before {
+.tf-puppeteer::before {
   content: "\ea26";
 }
 
-.tf-socketio::before {
+.tf-puppeteer-b::before {
   content: "\ea27";
 }
 
-.tf-socketio-b::before {
+.tf-socketio::before {
   content: "\ea28";
+}
+
+.tf-socketio-b::before {
+  content: "\ea29";
+}
+
+.tf-vue::before {
+  content: "\ea2a";
+}
+
+.tf-vue-b::before {
+  content: "\ea2b";
+}
+
+.tf-vue-pt1::before {
+  content: "\ea2c";
+}
+
+.tf-vue-pt2::before {
+  content: "\ea2d";
 }
 

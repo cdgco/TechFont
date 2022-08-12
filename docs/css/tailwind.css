@@ -602,8 +602,20 @@ video {
   margin-top: 1rem;
 }
 
+.block {
+  display: block;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .py-5 {
@@ -615,34 +627,23 @@ video {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
   line-height: 1;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
@@ -710,4 +711,19 @@ section {
 .hover\:text-\[\#01CD99\]:hover {
   --tw-text-opacity: 1;
   color: rgb(1 205 153 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#0AB5A9\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(10 181 169 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#15AC4F\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(21 172 79 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#40B883\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(64 184 131 / var(--tw-text-opacity));
 }

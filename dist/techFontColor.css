@@ -48,26 +48,19 @@
 
 [class^="tf-"][class*="-pt"],
 [class*=" tf-"][class*="-pt"],
+.tf-background,
+.tf-blank {
+    grid-column: 1;
+    grid-row: 1;
+}
+
 [class^="tf-"][class*="-clr"],
 [class*=" tf-"][class*="-clr"],
 [class^="tf-"][class*="-clr-b"],
 [class*=" tf-"][class*="-clr-b"] {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-table;
 }
 
-.tf-background {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tf-wrapper {
+    display: grid;
 }

@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tech Font</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFont.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFontColor.css">
-    <!-- <link rel="stylesheet" href="../dist/techFont.css">
-    <link rel="stylesheet" href="../dist/techFontColor.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFontColor.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../dist/techFont.css">
+    <link rel="stylesheet" href="../dist/techFontColor.css">
     <link href="css/tailwind.css" rel="stylesheet">
 </head>
 
@@ -30,7 +31,7 @@
                         <a class="nav-link js-scroll-trigger" href="#installation">Installation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/cdgco/bootstrap-brand-buttons">GitHub</a>
+                        <a class="nav-link" href="https://github.com/cdgco/TechFont">GitHub</a>
                     </li>
                 </ul>
             </div>
@@ -42,137 +43,138 @@
             <div class="container text-center">
                 <h1 class="text-5xl">Tech Icon Font</h1>
                 <br>
-                <a href="#buttons" class="js-scroll-trigger lead" style="color:white;">38+ icons</a>
+                <a href="#buttons" class="js-scroll-trigger lead" style="color:white;">38+ tech stack icons</a>
             </div>
         </div>
         <div class="container text-center">
-            <a href="#buttons" class="js-scroll-trigger" style="color:white;">
+            <a href="#icons" class="js-scroll-trigger" style="color:white;">
                 <i class="fa fa-angle-down fa-5x"></i>
             </a>
         </div>
     </header>
 
-    <section id="buttons">
+    <section id="icons">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mx-auto">
                     <h2 class="text-3xl">Icons</h2><br>
                     <input class="form-control" id="searchBox" type="text" placeholder="Search...">
                     <div id="icon-grid" class="row">
-                        <div data-name="php" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="php" data-color="#7478AE" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-php tf-5x tf-fw cursor-pointer hover:text-[#7478AE]"></i>
                         </div>
-                        <div data-name="php-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="php-b" data-color="#7478AE" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-php-b tf-5x tf-fw cursor-pointer hover:text-[#7478AE]"></i>
                         </div>
-                        <div data-name="express" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="express" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-express tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="express-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="express-b" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-express-b tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="nodejs" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="nodejs" data-color="#519942" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-nodejs tf-5x tf-fw  cursor-pointer hover:text-[#519942]"></i>
                         </div>
-                        <div data-name="nodejs-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="nodejs-b" data-color="#519942" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-nodejs-b tf-5x tf-fw cursor-pointer hover:text-[#519942]"></i>
                         </div>
-                        <div data-name="socketio" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="socketio" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-socketio tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="socketio-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="socketio-b" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-socketio-b tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="electron" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="electron" data-color="#48838E" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-electron tf-5x tf-fw cursor-pointer hover:text-[#48838E]"></i>
                         </div>
-                        <div data-name="electron-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="electron-b" data-color="#48838E" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-electron-b tf-5x tf-fw cursor-pointer hover:text-[#48838E]"></i>
                         </div>
-                        <div data-name="jquery" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="jquery" data-color="#0764A6" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-jquery tf-5x tf-fw cursor-pointer hover:text-[#0764A6]"></i>
                         </div>
-                        <div data-name="jquery-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="jquery-b" data-color="#0764A6" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-jquery-b tf-5x tf-fw cursor-pointer hover:text-[#0764A6]"></i>
                         </div>
-                        <div data-name="mysql" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="mysql" data-color="#016089" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-mysql tf-5x tf-fw cursor-pointer hover:text-[#016089]"></i>
                         </div>
-                        <div data-name="mysql-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="mysql-b" data-color="#016089" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-mysql-b tf-5x tf-fw cursor-pointer hover:text-[#016089]"></i>
                         </div>
-                        <div data-name="handlebars" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="handlebars" data-color="#372817" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-handlebars tf-5x tf-fw cursor-pointer hover:text-[#372817]"></i>
                         </div>
-                        <div data-name="handlebars-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="handlebars-b" data-color="#372817" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-handlebars-b tf-5x tf-fw cursor-pointer hover:text-[#372817]"></i>
                         </div>
-                        <div data-name="bootstrap" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="bootstrap" data-color="#7910ED" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-bootstrap tf-5x tf-fw cursor-pointer hover:text-[#7910ED]"></i>
                         </div>
-                        <div data-name="bootstrap-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="bootstrap-b" data-color="#7910ED" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-bootstrap-b tf-5x tf-fw cursor-pointer hover:text-[#7910ED]"></i>
                         </div>
-                        <div data-name="c" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="c" data-color="#27348E" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-c tf-5x tf-fw cursor-pointer hover:text-[#27348E]"></i>
                         </div>
-                        <div data-name="c-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="c-b" data-color="#27348E" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-c-b tf-5x tf-fw cursor-pointer hover:text-[#27348E]"></i>
                         </div>
-                        <div data-name="cplusplus" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="cplusplus" data-color="#00427E" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-cplusplus tf-5x tf-fw cursor-pointer hover:text-[#00427E]"></i>
                         </div>
-                        <div data-name="cplusplus-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="cplusplus-b" data-color="#00427E" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-cplusplus-b tf-5x tf-fw cursor-pointer hover:text-[#00427E]"></i>
                         </div>
-                        <div data-name="opencl" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="opencl" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-opencl tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="opencl-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="opencl-b" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-opencl-b tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="puppeteer" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="puppeteer" data-color="#01CD99" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-puppeteer tf-5x tf-fw cursor-pointer hover:text-[#01CD99]"></i>
                         </div>
-                        <div data-name="puppeteer-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                        <div data-name="puppeteer-b" data-color="#01CD99" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-puppeteer-b tf-5x tf-fw cursor-pointer hover:text-[#01CD99]"></i>
                         </div>
-                        <div data-name="elasticsearch" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
-                            <i class="tf tf-elasticsearch tf-5x tf-fw"></i>
+                        <div data-name="elasticsearch" data-color="#0AB5A9" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-elasticsearch tf-5x tf-fw cursor-pointer hover:text-[#0AB5A9]"></i>
                         </div>
-                        <div data-name="elasticsearch-clr" class="col-sm-6 col-md-3 mt-4 text-center">
-                            <i class="tf tf-elasticsearch-clr tf-5x tf-fw"></i>
+                        <div data-name="elasticsearch-clr" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-elasticsearch-clr tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="elasticsearch-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
-                            <i class="tf tf-elasticsearch-b tf-5x tf-fw"></i>
+                        <div data-name="elasticsearch-b" data-color="#0AB5A9" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-elasticsearch-b tf-5x tf-fw cursor-pointer hover:text-[#0AB5A9]"></i>
                         </div>
-                        <div data-name="elasticsearch-clr-b" class="col-sm-6 col-md-3 mt-4 text-center">
-                            <i class="tf tf-elasticsearch-clr-b tf-5x tf-fw"></i>
+                        <div data-name="elasticsearch-clr-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-elasticsearch-clr-b tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="mongodb" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
-                            <i class="tf tf-mongodb tf-5x tf-fw"></i>
+                        <div data-name="mongodb" data-color="#15AC4F" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-mongodb tf-5x tf-fw cursor-pointer hover:text-[#15AC4F]"></i>
                         </div>
-                        <div data-name="mongodb-clr" class="col-sm-6 col-md-3 mt-4 text-center">
-                            <i class="tf tf-mongodb-clr tf-5x tf-fw"></i>
+                        <div data-name="mongodb-clr" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-mongodb-clr tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="mongodb-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
-                            <i class="tf tf-mongodb-b tf-5x tf-fw"></i>
+                        <div data-name="mongodb-b" data-color="#15AC4F" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-mongodb-b tf-5x tf-fw cursor-pointer hover:text-[#15AC4F]"></i>
                         </div>
-                        <div data-name="mongodb-clr-b" class="col-sm-6 col-md-3 mt-4 text-center">
-                            <i class="tf tf-mongodb-clr-b tf-5x tf-fw"></i>
+                        <div data-name="mongodb-clr-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-mongodb-clr-b tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="vue" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
-                            <i class="tf tf-vue tf-5x tf-fw"></i>
+                        <div data-name="vue" data-color="#40B883" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-vue tf-5x tf-fw cursor-pointer hover:text-[#40B883]"></i>
                         </div>
-                        <div data-name="vue-clr" class="col-sm-6 col-md-3 mt-4 text-center">
-                            <i class="tf tf-vue-clr tf-5x tf-fw"></i>
+                        <div data-name="vue-clr" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-vue-clr tf-5x tf-fw cursor-pointer"></i>
                         </div>
-                        <div data-name="vue-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
-                            <i class="tf tf-vue-b tf-5x tf-fw"></i>
+                        <div data-name="vue-b" data-color="#40B883" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-vue-b tf-5x tf-fw cursor-pointer hover:text-[#40B883]"></i>
                         </div>
-                        <div data-name="vue-clr-b" class="col-sm-6 col-md-3 mt-4 text-center">
-                            <i class="tf tf-vue-clr-b tf-5x tf-fw"></i>
+                        <div data-name="vue-clr-b" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-vue-clr-b tf-5x tf-fw cursor-pointer"></i>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -182,30 +184,55 @@
     <section id="installation" class="bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="page-header">
                         <h3 class="text-2xl">Install and Usage</h3>
                     </div>
+                    <br>
                     <ul>
-                        <li>Install: <code>npm i @cdgco/brand-buttons</code></li>
-                        <li>Include <code>dist/brand-buttons.min.css</code> to your file:
-                            <code>&lt;link rel="stylesheet" src="dist/brand-buttons.min.css"&gt;</code></li>
-                        <li>Use as Bootstrap button:
-                            <code>&lt;button class="btn btn-facebook"&gt;Facebook&lt;/button&gt;</code> or
-                            <code>&lt;a href="" class="btn btn-facebook"&gt;Facebook&lt;/a&gt;</code></li>
-                        <li>For inversed version you need include <code>brand-buttons-inversed.min.css</code> and use as
-                            <code>.btn-{brand}-inversed</code></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="page-header">
-                        <h3 class="text-2xl">Features</h3>
-                    </div>
-                    <ul>
-                        <li>102 Buttons</li>
-                        <li>Built with SASS</li>
-                        <li>Made for Bootstrap</li>
-                        <li>Compatible with Font Awesome</li>
+                        <li>NPM:
+                            <ul class="list-disc list-inside">
+                                <li>Install: <code>npm i --save techfont</code></li>
+                                <li>Include: <code>&lt;link rel="stylesheet" href="node_modules/techfont/dist/techFont.css"&gt;</code></li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>CDN:
+                            <ul class="list-disc list-inside">
+                                <li>Include: <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFont.css"&gt;</code></li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>CDN:
+                            <ul class="list-disc list-inside">
+                                <li>Download: <a href="https://github.com/cdgco/TechFont/archive/refs/heads/master.zip"><code>https://github.com/cdgco/TechFont/archive/refs/heads/master.zip</code></a></li>
+                                <li>Include: <code>&lt;link rel="stylesheet" href="dist/techFont.css"&gt;</code></li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>Use with the <code>tf</code> and <code>tf-*</code> classes for standard icons:
+                            <ul class="list-disc list-inside">
+                                <li><code>&lt;i class="tf tf-express"&gt;&lt;/i&gt;</code></li>
+                                <li><code>&lt;i class="tf tf-bootstrap tf-5x"&gt;&lt;/i&gt;</code></li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>Use with the <code>tf</code> and <code>tf-*-b</code> classes for boxed icons:
+                            <ul class="list-disc list-inside">
+                                <li><code>&lt;i class="tf tf-express-b"&gt;&lt;/i&gt;</code></li>
+                                <li><code>&lt;i class="tf tf-bootstrap-b tf-5x"&gt;&lt;/i&gt;</code></li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>Include the additional CSS and JS, and use the <code>tf</code> and <code>tf-*-clr</code> or <code>tf-*-clr-b</code> classes for multi-color icons:
+                            <ul class="list-disc list-inside">
+                                <li>Include: <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFontColor.css"&gt;</code></li>
+                                <li>Include: <code>&lt;script src="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFontColor.js"&gt;</code></li>
+                                <li><code>&lt;i class="tf tf-mongodb-clr"&gt;&lt;/i&gt;</code></li>
+                                <li><code>&lt;i class="tf tf-mongodb-clr-b"&gt;&lt;/i&gt;</code></li>
+                                <li><code>&lt;i class="tf tf-vue-clr-b tf-5x"&gt;&lt;/i&gt;</code></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -215,13 +242,23 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title fill-code"></h5>
+                    <h5 class="modal-title fill-name font-bold"></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <pre><code>&lt;i class="tf tf-<span class="fill-code"></span>"&gt;&lt;/i&gt;</code></pre>
+                    <div class="row">
+                        <div class="col-lg-4 mx-auto">
+                            <div id="iconFrame">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-8 mx-auto">
+                            <pre style="border-radius:10px"><code class="language-html fill-code"></code></pre>
+                            <input type="color" class="form-control" id="colorPicker" oninput="document.getElementById('iconFrame').style.color = this.value">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -235,8 +272,10 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFontColor.js"></script>
-    <!-- <script src="../dist/techFontColor.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFontColor.js"></script> -->
+    <script src="../dist/techFontColor.js"></script>
     <script>
         $(document).ready(function() {
             $("#searchBox").on("keyup", function() {
@@ -249,9 +288,22 @@
         $('#iconModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget) // Button that triggered the modal
             var name = button.data('name') // Extract info from data-* attributes
-            console.log(name)
+            var color = button.data('color') // Extract info from data-* attributes
+            console.log(color)
             var modal = $(this)
-            modal.find('.fill-code').text(name)
+            modal.find('.fill-name').text(name)
+            modal.find('.fill-code').text('<i class="tf tf-' + name + '"></i>')
+            document.getElementById("iconFrame").innerHTML = '<i class="tf tf-' + name + ' tf-10x"></i>';
+            Prism.highlightAll();
+            if (color != null) {
+                document.getElementById("colorPicker").value = color;
+                document.getElementById('iconFrame').style.color = color
+                document.getElementById("colorPicker").style.display = "block";
+            } else {
+                document.getElementById("colorPicker").style.display = "none";
+                document.getElementById('iconFrame').style.color = "#000"
+            }
+            tfLoadColors();
         })
     </script>
 </body>

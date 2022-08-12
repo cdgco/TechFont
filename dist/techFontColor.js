@@ -1,141 +1,40 @@
-var elasticsearch = document.getElementsByClassName("tf-elasticsearch-clr");
-for (var i = 0; i < elasticsearch.length; i++) {
-    var pt1 = elasticsearch[i].cloneNode(true);
-    pt1.classList.remove("tf-elasticsearch-clr");
-    pt1.classList.add("tf-elasticsearch-pt1");
-    var pt2 = elasticsearch[i].cloneNode(true);
-    pt2.classList.remove("tf-elasticsearch-clr");
-    pt2.classList.add("tf-elasticsearch-pt2");
-    var pt3 = elasticsearch[i].cloneNode(true);
-    pt3.classList.remove("tf-elasticsearch-clr");
-    pt3.classList.add("tf-elasticsearch-pt3");
-    var pt4 = elasticsearch[i].cloneNode(true);
-    pt4.classList.remove("tf-elasticsearch-clr");
-    pt4.classList.add("tf-elasticsearch-pt4");
-    var pt5 = elasticsearch[i].cloneNode(true);
-    pt5.classList.remove("tf-elasticsearch-clr");
-    pt5.classList.add("tf-elasticsearch-pt5");
-    var pt6 = elasticsearch[i].cloneNode(true);
-    pt6.classList.remove("tf-elasticsearch-clr");
-    pt6.classList.add("tf-elasticsearch-pt6");
-    var pt7 = elasticsearch[i].cloneNode(true);
-    pt7.classList.remove("tf-elasticsearch-clr");
-    pt7.classList.add("tf-blank");
-
-    elasticsearch[i].parentNode.insertBefore(pt1, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt2, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt3, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt4, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt5, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt6, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt7, elasticsearch[i].nextSibling)
+function tfLoadMultiColorIcon(icon, parts, box) {
+    var boxString = box ? "-b" : "";
+    var parents = document.getElementsByClassName("tf-" + icon + "-clr" + boxString);
+    for (var i = 0; i < parents.length; i++) {
+        if (!parents[i].classList.contains("tf-processed")) {
+            var wrapper = document.createElement("div");
+            wrapper.classList.add("tf-wrapper");
+            if (box) {
+                var part = parents[i].cloneNode(true);
+                part.classList.remove("tf-" + icon + "-clr" + boxString);
+                part.classList.add("tf-background");
+                wrapper.appendChild(part);
+            } else {
+                var part = parents[i].cloneNode(true);
+                part.classList.remove("tf-" + icon + "-clr" + boxString);
+                part.classList.add("tf-blank");
+                wrapper.appendChild(part);
+            }
+            for (var j = parts; j >= 0; j--) {
+                var part = parents[i].cloneNode(true);
+                part.classList.remove("tf-" + icon + "-clr" + boxString);
+                part.classList.add("tf-" + icon + "-pt" + j);
+                wrapper.appendChild(part);
+            }
+            parents[i].appendChild(wrapper)
+            parents[i].classList = "tf-" + icon + "-clr" + boxString + " tf-processed";
+        }
+    }
 }
 
-var elasticsearch = document.getElementsByClassName("tf-elasticsearch-clr-b");
-for (var i = 0; i < elasticsearch.length; i++) {
-    var pt1 = elasticsearch[i].cloneNode(true);
-    pt1.classList.remove("tf-elasticsearch-clr-b");
-    pt1.classList.add("tf-elasticsearch-pt1");
-    var pt2 = elasticsearch[i].cloneNode(true);
-    pt2.classList.remove("tf-elasticsearch-clr-b");
-    pt2.classList.add("tf-elasticsearch-pt2");
-    var pt3 = elasticsearch[i].cloneNode(true);
-    pt3.classList.remove("tf-elasticsearch-clr-b");
-    pt3.classList.add("tf-elasticsearch-pt3");
-    var pt4 = elasticsearch[i].cloneNode(true);
-    pt4.classList.remove("tf-elasticsearch-clr-b");
-    pt4.classList.add("tf-elasticsearch-pt4");
-    var pt5 = elasticsearch[i].cloneNode(true);
-    pt5.classList.remove("tf-elasticsearch-clr-b");
-    pt5.classList.add("tf-elasticsearch-pt5");
-    var pt6 = elasticsearch[i].cloneNode(true);
-    pt6.classList.remove("tf-elasticsearch-clr-b");
-    pt6.classList.add("tf-elasticsearch-pt6");
-    var pt7 = elasticsearch[i].cloneNode(true);
-    pt7.classList.remove("tf-elasticsearch-clr-b");
-    pt7.classList.add("tf-background");
-
-    elasticsearch[i].parentNode.insertBefore(pt1, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt2, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt3, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt4, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt5, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt6, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt7, elasticsearch[i].nextSibling)
+function tfLoadColors() {
+    tfLoadMultiColorIcon("elasticsearch", 6, false)
+    tfLoadMultiColorIcon("elasticsearch", 6, true)
+    tfLoadMultiColorIcon("mongodb", 3, false)
+    tfLoadMultiColorIcon("mongodb", 3, true)
+    tfLoadMultiColorIcon("vue", 2, false)
+    tfLoadMultiColorIcon("vue", 2, true)
 }
 
-var elasticsearch = document.getElementsByClassName("tf-mongodb-clr-b");
-for (var i = 0; i < elasticsearch.length; i++) {
-    var pt1 = elasticsearch[i].cloneNode(true);
-    pt1.classList.remove("tf-mongodb-clr-b");
-    pt1.classList.add("tf-mongodb-pt1");
-    var pt2 = elasticsearch[i].cloneNode(true);
-    pt2.classList.remove("tf-mongodb-clr-b");
-    pt2.classList.add("tf-mongodb-pt2");
-    var pt3 = elasticsearch[i].cloneNode(true);
-    pt3.classList.remove("tf-mongodb-clr-b");
-    pt3.classList.add("tf-mongodb-pt3");
-    var pt4 = elasticsearch[i].cloneNode(true);
-    pt4.classList.remove("tf-mongodb-clr-b");
-    pt4.classList.add("tf-background");
-
-    elasticsearch[i].parentNode.insertBefore(pt1, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt2, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt3, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt4, elasticsearch[i].nextSibling)
-}
-
-var elasticsearch = document.getElementsByClassName("tf-mongodb-clr");
-for (var i = 0; i < elasticsearch.length; i++) {
-    var pt1 = elasticsearch[i].cloneNode(true);
-    pt1.classList.remove("tf-mongodb-clr");
-    pt1.classList.add("tf-mongodb-pt1");
-    var pt2 = elasticsearch[i].cloneNode(true);
-    pt2.classList.remove("tf-mongodb-clr");
-    pt2.classList.add("tf-mongodb-pt2");
-    var pt3 = elasticsearch[i].cloneNode(true);
-    pt3.classList.remove("tf-mongodb-clr");
-    pt3.classList.add("tf-mongodb-pt3");
-    var pt4 = elasticsearch[i].cloneNode(true);
-    pt4.classList.remove("tf-mongodb-clr");
-    pt4.classList.add("tf-blank");
-
-    elasticsearch[i].parentNode.insertBefore(pt1, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt2, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt3, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt4, elasticsearch[i].nextSibling)
-}
-
-var elasticsearch = document.getElementsByClassName("tf-vue-clr-b");
-for (var i = 0; i < elasticsearch.length; i++) {
-    var pt1 = elasticsearch[i].cloneNode(true);
-    pt1.classList.remove("tf-vue-clr-b");
-    pt1.classList.add("tf-vue-pt1");
-    var pt2 = elasticsearch[i].cloneNode(true);
-    pt2.classList.remove("tf-vue-clr-b");
-    pt2.classList.add("tf-vue-pt2");
-    var pt3 = elasticsearch[i].cloneNode(true);
-    pt3.classList.remove("tf-vue-clr-b");
-    pt3.classList.add("tf-background");
-
-    elasticsearch[i].parentNode.insertBefore(pt1, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt2, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt3, elasticsearch[i].nextSibling)
-}
-
-var elasticsearch = document.getElementsByClassName("tf-vue-clr");
-for (var i = 0; i < elasticsearch.length; i++) {
-    var pt1 = elasticsearch[i].cloneNode(true);
-    pt1.classList.remove("tf-vue-clr");
-    pt1.classList.add("tf-vue-pt1");
-    var pt2 = elasticsearch[i].cloneNode(true);
-    pt2.classList.remove("tf-vue-clr");
-    pt2.classList.add("tf-vue-pt2");
-    var pt3 = elasticsearch[i].cloneNode(true);
-    pt3.classList.remove("tf-vue-clr");
-    pt3.classList.add("tf-blank");
-
-    elasticsearch[i].parentNode.insertBefore(pt1, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt2, elasticsearch[i].nextSibling)
-    elasticsearch[i].parentNode.insertBefore(pt3, elasticsearch[i].nextSibling)
-}
+tfLoadColors();

@@ -293,7 +293,9 @@
             $("#searchBox").on("keyup", function() {
                 var value = $(this).val().toLowerCase();
                 $("#icon-grid div").filter(function() {
-                    $(this).toggle($(this).data("name").toLowerCase().indexOf(value) > -1)
+                    if (!$(this).hasClass("tf-wrapper")) {
+                        $(this).toggle($(this).data("name").toLowerCase().indexOf(value) > -1)
+                    }
                 });
             });
         });

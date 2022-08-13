@@ -16,7 +16,7 @@ function tfLoadMultiColorIcon(icon, parts, box) {
                 part.classList.add("tf-blank");
                 wrapper.appendChild(part);
             }
-            for (var j = parts; j >= 0; j--) {
+            for (var j = parts; j >= 1; j--) {
                 var part = parents[i].cloneNode(true);
                 part.classList.remove("tf-" + icon + "-clr" + boxString);
                 part.classList.add("tf-" + icon + "-pt" + j);

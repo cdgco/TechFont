@@ -1,281 +1,299 @@
 @font-face {
-    font-display: auto;
-    font-family: "techFont";
-    font-style: normal;
-    font-weight: 400;
-    src: url("./techFont.eot?1660267011177");
-    src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660267011177") format("woff2"), url("./techFont.woff?1660267011177") format("woff"), url("./techFont.ttf?1660267011177") format("truetype"), url("./techFont.svg?1660267011177#techFont") format("svg");
+  font-display: auto;
+  font-family: "techFont";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./techFont.eot?1660411474361");
+  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660411474361") format("woff2"), url("./techFont.woff?1660411474361") format("woff"), url("./techFont.ttf?1660411474361") format("truetype"), url("./techFont.svg?1660411474361#techFont") format("svg");
 }
 
 .tf {
-    display: inline-block;
-    font-family: "techFont";
-    font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: "techFont";
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .tf-lg {
-    font-size: 1.33333em;
-    line-height: 0.75em;
-    vertical-align: -0.0667em;
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
 }
 
 .tf-xs {
-    font-size: 0.75em;
+  font-size: 0.75em;
 }
 
 .tf-sm {
-    font-size: 0.875em;
+  font-size: 0.875em;
 }
 
 .tf-1x {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .tf-2x {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .tf-3x {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .tf-4x {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 .tf-5x {
-    font-size: 5em;
+  font-size: 5em;
 }
 
 .tf-6x {
-    font-size: 6em;
+  font-size: 6em;
 }
 
 .tf-7x {
-    font-size: 7em;
+  font-size: 7em;
 }
 
 .tf-8x {
-    font-size: 8em;
+  font-size: 8em;
 }
 
 .tf-9x {
-    font-size: 9em;
+  font-size: 9em;
 }
 
 .tf-10x {
-    font-size: 10em;
+  font-size: 10em;
 }
 
 .tf-fw {
-    text-align: center;
-    width: 1.25em;
+  text-align: center;
+  width: 1.25em;
 }
 
 .tf-border {
-    border: solid 0.08em #eee;
-    border-radius: 0.1em;
-    padding: 0.2em 0.25em 0.15em;
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
 }
 
 .tf-pull-left {
-    float: left;
+  float: left;
 }
 
 .tf-pull-right {
-    float: right;
+  float: right;
 }
 
 .tf.tf-pull-left {
-    margin-right: 0.3em;
+  margin-right: 0.3em;
 }
 
 .tf.tf-pull-right {
-    margin-left: 0.3em;
+  margin-left: 0.3em;
 }
 
+
 .tf-background::before {
-    content: "\ea01";
+  content: "\ea01";
 }
 
 .tf-blank::before {
-    content: "\ea02";
+  content: "\ea02";
 }
 
 .tf-bootstrap::before {
-    content: "\ea03";
+  content: "\ea03";
 }
 
 .tf-bootstrap-b::before {
-    content: "\ea04";
+  content: "\ea04";
 }
 
 .tf-c::before {
-    content: "\ea05";
+  content: "\ea05";
 }
 
 .tf-c-b::before {
-    content: "\ea06";
+  content: "\ea06";
 }
 
 .tf-cplusplus::before {
-    content: "\ea07";
+  content: "\ea07";
 }
 
 .tf-cplusplus-b::before {
-    content: "\ea08";
+  content: "\ea08";
 }
 
 .tf-elasticsearch::before {
-    content: "\ea09";
+  content: "\ea09";
 }
 
 .tf-elasticsearch-b::before {
-    content: "\ea0a";
+  content: "\ea0a";
 }
 
 .tf-elasticsearch-pt1::before {
-    content: "\ea0b";
+  content: "\ea0b";
 }
 
 .tf-elasticsearch-pt2::before {
-    content: "\ea0c";
+  content: "\ea0c";
 }
 
 .tf-elasticsearch-pt3::before {
-    content: "\ea0d";
+  content: "\ea0d";
 }
 
 .tf-elasticsearch-pt4::before {
-    content: "\ea0e";
+  content: "\ea0e";
 }
 
 .tf-elasticsearch-pt5::before {
-    content: "\ea0f";
+  content: "\ea0f";
 }
 
 .tf-elasticsearch-pt6::before {
-    content: "\ea10";
+  content: "\ea10";
 }
 
 .tf-electron::before {
-    content: "\ea11";
+  content: "\ea11";
 }
 
 .tf-electron-b::before {
-    content: "\ea12";
+  content: "\ea12";
 }
 
 .tf-express::before {
-    content: "\ea13";
+  content: "\ea13";
 }
 
 .tf-express-b::before {
-    content: "\ea14";
+  content: "\ea14";
 }
 
 .tf-handlebars::before {
-    content: "\ea15";
+  content: "\ea15";
 }
 
 .tf-handlebars-b::before {
-    content: "\ea16";
+  content: "\ea16";
 }
 
 .tf-jquery::before {
-    content: "\ea17";
+  content: "\ea17";
 }
 
 .tf-jquery-b::before {
-    content: "\ea18";
+  content: "\ea18";
 }
 
 .tf-mongodb::before {
-    content: "\ea19";
+  content: "\ea19";
 }
 
 .tf-mongodb-b::before {
-    content: "\ea1a";
+  content: "\ea1a";
 }
 
 .tf-mongodb-pt1::before {
-    content: "\ea1b";
+  content: "\ea1b";
 }
 
 .tf-mongodb-pt2::before {
-    content: "\ea1c";
+  content: "\ea1c";
 }
 
 .tf-mongodb-pt3::before {
-    content: "\ea1d";
+  content: "\ea1d";
 }
 
 .tf-mysql::before {
-    content: "\ea1e";
+  content: "\ea1e";
 }
 
 .tf-mysql-b::before {
-    content: "\ea1f";
+  content: "\ea1f";
 }
 
 .tf-nodejs::before {
-    content: "\ea20";
+  content: "\ea20";
 }
 
 .tf-nodejs-b::before {
-    content: "\ea21";
+  content: "\ea21";
 }
 
 .tf-opencl::before {
-    content: "\ea22";
+  content: "\ea22";
 }
 
 .tf-opencl-b::before {
-    content: "\ea23";
+  content: "\ea23";
 }
 
 .tf-php::before {
-    content: "\ea24";
+  content: "\ea24";
 }
 
 .tf-php-b::before {
-    content: "\ea25";
+  content: "\ea25";
 }
 
 .tf-puppeteer::before {
-    content: "\ea26";
+  content: "\ea26";
 }
 
 .tf-puppeteer-b::before {
-    content: "\ea27";
+  content: "\ea27";
 }
 
 .tf-socketio::before {
-    content: "\ea28";
+  content: "\ea28";
 }
 
 .tf-socketio-b::before {
-    content: "\ea29";
+  content: "\ea29";
+}
+
+.tf-vite::before {
+  content: "\ea2a";
+}
+
+.tf-vite-b::before {
+  content: "\ea2b";
+}
+
+.tf-vite-pt1::before {
+  content: "\ea2c";
+}
+
+.tf-vite-pt2::before {
+  content: "\ea2d";
 }
 
 .tf-vue::before {
-    content: "\ea2a";
+  content: "\ea2e";
 }
 
 .tf-vue-b::before {
-    content: "\ea2b";
+  content: "\ea2f";
 }
 
 .tf-vue-pt1::before {
-    content: "\ea2c";
+  content: "\ea30";
 }
 
 .tf-vue-pt2::before {
-    content: "\ea2d";
+  content: "\ea31";
 }
+

@@ -35,6 +35,8 @@ function tfLoadColors() {
     tfLoadMultiColorIcon("mongodb", 3, true)
     tfLoadMultiColorIcon("vue", 2, false)
     tfLoadMultiColorIcon("vue", 2, true)
+    tfLoadMultiColorIcon("vite", 2, false)
+    tfLoadMultiColorIcon("vite", 2, true)
 }
 
 tfLoadColors();

@@ -46,6 +46,26 @@
     color: #ddd;
 }
 
+.tf-vite-pt1::before {
+    background: -moz-linear-gradient(top left, #FFEA83 0%, #FFA800 100%);
+    background: -webkit-linear-gradient(top left, #FFEA83 0%, #FFA800 100%);
+    background: linear-gradient(to bottom right, #FFEA83 0%, #FFA800 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tf-vite-pt2::before {
+    background: -moz-linear-gradient(top left, #41D1FF 0%, #BD34FE 100%);
+    background: -webkit-linear-gradient(top left, #41D1FF 0%, #BD34FE 100%);
+    background: linear-gradient(to bottom right, #41D1FF 0%, #BD34FE 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 [class^="tf-"][class*="-pt"],
 [class*=" tf-"][class*="-pt"],
 .tf-background,

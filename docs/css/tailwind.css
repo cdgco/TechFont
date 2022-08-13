@@ -727,3 +727,8 @@ section {
   --tw-text-opacity: 1;
   color: rgb(64 184 131 / var(--tw-text-opacity));
 }
+
+.hover\:text-\[\#8C8AFF\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(140 138 255 / var(--tw-text-opacity));
+}

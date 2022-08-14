@@ -42,8 +42,48 @@
     color: #40B883;
 }
 
+.tf-javascript-pt1::before {
+    color: #FFD93C;
+}
+
+.tf-javascript-pt2::before {
+    color: #D6BA32;
+}
+
+.tf-css-pt1::before {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.tf-css-pt2::before {
+    color: #2965F0;
+}
+
+.tf-css-pt3::before {
+    color: #264DE4;
+}
+
+.tf-html-pt1::before {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.tf-html-pt2::before {
+    color: #EF652A;
+}
+
+.tf-html-pt3::before {
+    color: #E34F26;
+}
+
+.tf-nuxt-pt1::before {
+    color: #01DC81;
+}
+
+.tf-nuxt-pt2::before {
+    color: #80EDC0;
+}
+
 .tf-background::before {
-    color: #ddd;
+    color: #eee;
 }
 
 .tf-vite-pt1::before {

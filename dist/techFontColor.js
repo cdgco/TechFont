@@ -37,6 +37,14 @@ function tfLoadColors() {
     tfLoadMultiColorIcon("vue", 2, true)
     tfLoadMultiColorIcon("vite", 2, false)
     tfLoadMultiColorIcon("vite", 2, true)
+    tfLoadMultiColorIcon("javascript", 2, false)
+    tfLoadMultiColorIcon("javascript", 2, true)
+    tfLoadMultiColorIcon("html", 3, false)
+    tfLoadMultiColorIcon("html", 3, true)
+    tfLoadMultiColorIcon("css", 3, false)
+    tfLoadMultiColorIcon("css", 3, true)
+    tfLoadMultiColorIcon("nuxt", 2, false)
+    tfLoadMultiColorIcon("nuxt", 2, true)
 }
 
 tfLoadColors();

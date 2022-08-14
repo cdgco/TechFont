@@ -732,3 +732,28 @@ section {
   --tw-text-opacity: 1;
   color: rgb(140 138 255 / var(--tw-text-opacity));
 }
+
+.hover\:text-\[\#F7DF1C\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(247 223 28 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#D6BA32\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(214 186 50 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#E34F26\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(227 79 38 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#264DE4\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(38 77 228 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#01DC81\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(1 220 129 / var(--tw-text-opacity));
+}

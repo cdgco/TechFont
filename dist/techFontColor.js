@@ -45,6 +45,10 @@ function tfLoadColors() {
     tfLoadMultiColorIcon("css", 3, true)
     tfLoadMultiColorIcon("nuxt", 2, false)
     tfLoadMultiColorIcon("nuxt", 2, true)
+    tfLoadMultiColorIcon("cloudflare", 2, false)
+    tfLoadMultiColorIcon("cloudflare", 2, true)
+    tfLoadMultiColorIcon("python", 2, false)
+    tfLoadMultiColorIcon("python", 2, true)
 }
 
 tfLoadColors();

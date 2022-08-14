@@ -757,3 +757,48 @@ section {
   --tw-text-opacity: 1;
   color: rgb(1 220 129 / var(--tw-text-opacity));
 }
+
+.hover\:text-\[\#F38020\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(243 128 32 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#F03C2D\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(240 60 45 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#000\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#CB3837\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(203 56 55 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#3675A8\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(54 117 168 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#06CDF1\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(6 205 241 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#645BFF\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(100 91 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#2B8EBB\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(43 142 187 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#22749A\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(34 116 154 / var(--tw-text-opacity));
+}

@@ -3,8 +3,8 @@
   font-family: "techFont";
   font-style: normal;
   font-weight: 400;
-  src: url("./techFont.eot?1660460043754");
-  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660460043754") format("woff2"), url("./techFont.woff?1660460043754") format("woff"), url("./techFont.ttf?1660460043754") format("truetype"), url("./techFont.svg?1660460043754#techFont") format("svg");
+  src: url("./techFont.eot?1660510480898");
+  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660510480898") format("woff2"), url("./techFont.woff?1660510480898") format("woff"), url("./techFont.ttf?1660510480898") format("truetype"), url("./techFont.svg?1660510480898#techFont") format("svg");
 }
 
 .tf {
@@ -125,255 +125,351 @@
   content: "\ea06";
 }
 
-.tf-cplusplus::before {
+.tf-cloudflare::before {
   content: "\ea07";
 }
 
-.tf-cplusplus-b::before {
+.tf-cloudflare-b::before {
   content: "\ea08";
 }
 
-.tf-css::before {
+.tf-cloudflare-pt1::before {
   content: "\ea09";
 }
 
-.tf-css-b::before {
+.tf-cloudflare-pt2::before {
   content: "\ea0a";
 }
 
-.tf-css-pt1::before {
+.tf-cplusplus::before {
   content: "\ea0b";
 }
 
-.tf-css-pt2::before {
+.tf-cplusplus-b::before {
   content: "\ea0c";
 }
 
-.tf-css-pt3::before {
+.tf-css::before {
   content: "\ea0d";
 }
 
-.tf-elasticsearch::before {
+.tf-css-b::before {
   content: "\ea0e";
 }
 
-.tf-elasticsearch-b::before {
+.tf-css-pt1::before {
   content: "\ea0f";
 }
 
-.tf-elasticsearch-pt1::before {
+.tf-css-pt2::before {
   content: "\ea10";
 }
 
-.tf-elasticsearch-pt2::before {
+.tf-css-pt3::before {
   content: "\ea11";
 }
 
-.tf-elasticsearch-pt3::before {
+.tf-elasticsearch::before {
   content: "\ea12";
 }
 
-.tf-elasticsearch-pt4::before {
+.tf-elasticsearch-b::before {
   content: "\ea13";
 }
 
-.tf-elasticsearch-pt5::before {
+.tf-elasticsearch-pt1::before {
   content: "\ea14";
 }
 
-.tf-elasticsearch-pt6::before {
+.tf-elasticsearch-pt2::before {
   content: "\ea15";
 }
 
-.tf-electron::before {
+.tf-elasticsearch-pt3::before {
   content: "\ea16";
 }
 
-.tf-electron-b::before {
+.tf-elasticsearch-pt4::before {
   content: "\ea17";
 }
 
-.tf-express::before {
+.tf-elasticsearch-pt5::before {
   content: "\ea18";
 }
 
-.tf-express-b::before {
+.tf-elasticsearch-pt6::before {
   content: "\ea19";
 }
 
-.tf-handlebars::before {
+.tf-electron::before {
   content: "\ea1a";
 }
 
-.tf-handlebars-b::before {
+.tf-electron-b::before {
   content: "\ea1b";
 }
 
-.tf-html::before {
+.tf-express::before {
   content: "\ea1c";
 }
 
-.tf-html-b::before {
+.tf-express-b::before {
   content: "\ea1d";
 }
 
-.tf-html-pt1::before {
+.tf-git::before {
   content: "\ea1e";
 }
 
-.tf-html-pt2::before {
+.tf-git-b::before {
   content: "\ea1f";
 }
 
-.tf-html-pt3::before {
+.tf-github::before {
   content: "\ea20";
 }
 
-.tf-javascript::before {
+.tf-github-b::before {
   content: "\ea21";
 }
 
-.tf-javascript-alt::before {
+.tf-handlebars::before {
   content: "\ea22";
 }
 
-.tf-javascript-alt-b::before {
+.tf-handlebars-b::before {
   content: "\ea23";
 }
 
-.tf-javascript-b::before {
+.tf-html::before {
   content: "\ea24";
 }
 
-.tf-javascript-pt1::before {
+.tf-html-b::before {
   content: "\ea25";
 }
 
-.tf-javascript-pt2::before {
+.tf-html-pt1::before {
   content: "\ea26";
 }
 
-.tf-jquery::before {
+.tf-html-pt2::before {
   content: "\ea27";
 }
 
-.tf-jquery-b::before {
+.tf-html-pt3::before {
   content: "\ea28";
 }
 
-.tf-mongodb::before {
+.tf-javascript::before {
   content: "\ea29";
 }
 
-.tf-mongodb-b::before {
+.tf-javascript-alt::before {
   content: "\ea2a";
 }
 
-.tf-mongodb-pt1::before {
+.tf-javascript-alt-b::before {
   content: "\ea2b";
 }
 
-.tf-mongodb-pt2::before {
+.tf-javascript-b::before {
   content: "\ea2c";
 }
 
-.tf-mongodb-pt3::before {
+.tf-javascript-pt1::before {
   content: "\ea2d";
 }
 
-.tf-mysql::before {
+.tf-javascript-pt2::before {
   content: "\ea2e";
 }
 
-.tf-mysql-b::before {
+.tf-jquery::before {
   content: "\ea2f";
 }
 
-.tf-nodejs::before {
+.tf-jquery-b::before {
   content: "\ea30";
 }
 
-.tf-nodejs-b::before {
+.tf-mongodb::before {
   content: "\ea31";
 }
 
-.tf-nuxt::before {
+.tf-mongodb-b::before {
   content: "\ea32";
 }
 
-.tf-nuxt-b::before {
+.tf-mongodb-pt1::before {
   content: "\ea33";
 }
 
-.tf-nuxt-pt1::before {
+.tf-mongodb-pt2::before {
   content: "\ea34";
 }
 
-.tf-nuxt-pt2::before {
+.tf-mongodb-pt3::before {
   content: "\ea35";
 }
 
-.tf-opencl::before {
+.tf-mysql::before {
   content: "\ea36";
 }
 
-.tf-opencl-b::before {
+.tf-mysql-b::before {
   content: "\ea37";
 }
 
-.tf-php::before {
+.tf-nodejs::before {
   content: "\ea38";
 }
 
-.tf-php-b::before {
+.tf-nodejs-b::before {
   content: "\ea39";
 }
 
-.tf-puppeteer::before {
+.tf-npm::before {
   content: "\ea3a";
 }
 
-.tf-puppeteer-b::before {
+.tf-npm-alt::before {
   content: "\ea3b";
 }
 
-.tf-socketio::before {
+.tf-npm-alt-b::before {
   content: "\ea3c";
 }
 
-.tf-socketio-b::before {
+.tf-npm-b::before {
   content: "\ea3d";
 }
 
-.tf-vite::before {
+.tf-nuxt::before {
   content: "\ea3e";
 }
 
-.tf-vite-b::before {
+.tf-nuxt-b::before {
   content: "\ea3f";
 }
 
-.tf-vite-pt1::before {
+.tf-nuxt-pt1::before {
   content: "\ea40";
 }
 
-.tf-vite-pt2::before {
+.tf-nuxt-pt2::before {
   content: "\ea41";
 }
 
-.tf-vue::before {
+.tf-opencl::before {
   content: "\ea42";
 }
 
-.tf-vue-b::before {
+.tf-opencl-b::before {
   content: "\ea43";
 }
 
-.tf-vue-pt1::before {
+.tf-php::before {
   content: "\ea44";
 }
 
-.tf-vue-pt2::before {
+.tf-php-b::before {
   content: "\ea45";
+}
+
+.tf-puppeteer::before {
+  content: "\ea46";
+}
+
+.tf-puppeteer-b::before {
+  content: "\ea47";
+}
+
+.tf-python::before {
+  content: "\ea48";
+}
+
+.tf-python-b::before {
+  content: "\ea49";
+}
+
+.tf-python-pt1::before {
+  content: "\ea4a";
+}
+
+.tf-python-pt2::before {
+  content: "\ea4b";
+}
+
+.tf-react::before {
+  content: "\ea4c";
+}
+
+.tf-react-b::before {
+  content: "\ea4d";
+}
+
+.tf-socketio::before {
+  content: "\ea4e";
+}
+
+.tf-socketio-b::before {
+  content: "\ea4f";
+}
+
+.tf-stripe::before {
+  content: "\ea50";
+}
+
+.tf-stripe-b::before {
+  content: "\ea51";
+}
+
+.tf-vite::before {
+  content: "\ea52";
+}
+
+.tf-vite-b::before {
+  content: "\ea53";
+}
+
+.tf-vite-pt1::before {
+  content: "\ea54";
+}
+
+.tf-vite-pt2::before {
+  content: "\ea55";
+}
+
+.tf-vue::before {
+  content: "\ea56";
+}
+
+.tf-vue-b::before {
+  content: "\ea57";
+}
+
+.tf-vue-pt1::before {
+  content: "\ea58";
+}
+
+.tf-vue-pt2::before {
+  content: "\ea59";
+}
+
+.tf-wordpress::before {
+  content: "\ea5a";
+}
+
+.tf-wordpress-b::before {
+  content: "\ea5b";
+}
+
+.tf-yarn::before {
+  content: "\ea5c";
+}
+
+.tf-yarn-b::before {
+  content: "\ea5d";
 }
 

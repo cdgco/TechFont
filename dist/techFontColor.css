@@ -82,6 +82,22 @@
     color: #80EDC0;
 }
 
+.tf-cloudflare-pt1::before {
+    color: #FAAE40;
+}
+
+.tf-cloudflare-pt2::before {
+    color: #F38020;
+}
+
+.tf-python-pt1::before {
+    color: #3675A8;
+}
+
+.tf-python-pt2::before {
+    color: #FFCB3E;
+}
+
 .tf-background::before {
     color: #eee;
 }

@@ -312,6 +312,18 @@
                         <div data-name="wordpress-b" data-color="#22749A" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
                             <i class="tf tf-wordpress-b tf-5x tf-fw cursor-pointer hover:text-[#22749A]"></i>
                         </div>
+                        <div data-name="nextjs" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-nextjs tf-5x tf-fw cursor-pointer hover:text-[#000]"></i>
+                        </div>
+                        <div data-name="nextjs-b" data-color="#000" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-nextjs-b tf-5x tf-fw cursor-pointer hover:text-[#000]"></i>
+                        </div>
+                        <div data-name="tailwind" data-color="#34B4EB" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-tailwind tf-5x tf-fw cursor-pointer hover:text-[#34B4EB]"></i>
+                        </div>
+                        <div data-name="tailwind-b" data-color="#34B4EB" class="col-sm-6 col-md-3 mt-4 text-center" data-toggle="modal" data-target="#iconModal">
+                            <i class="tf tf-tailwind-b tf-5x tf-fw cursor-pointer hover:text-[#34B4EB]"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -428,7 +440,6 @@
             var button = $(event.relatedTarget) // Button that triggered the modal
             var name = button.data('name') // Extract info from data-* attributes
             var color = button.data('color') // Extract info from data-* attributes
-            console.log(color)
             var modal = $(this)
             modal.find('.fill-name').text(name)
             modal.find('.fill-code').text('<i class="tf tf-' + name + '"></i>')

@@ -3,8 +3,8 @@
   font-family: "techFont";
   font-style: normal;
   font-weight: 400;
-  src: url("./techFont.eot?1660510480898");
-  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660510480898") format("woff2"), url("./techFont.woff?1660510480898") format("woff"), url("./techFont.ttf?1660510480898") format("truetype"), url("./techFont.svg?1660510480898#techFont") format("svg");
+  src: url("./techFont.eot?1660512909538");
+  src: url("./techFont.eot?#iefix") format("embedded-opentype"), url("./techFont.woff2?1660512909538") format("woff2"), url("./techFont.woff?1660512909538") format("woff"), url("./techFont.ttf?1660512909538") format("truetype"), url("./techFont.svg?1660512909538#techFont") format("svg");
 }
 
 .tf {
@@ -321,155 +321,171 @@
   content: "\ea37";
 }
 
-.tf-nodejs::before {
+.tf-nextjs::before {
   content: "\ea38";
 }
 
-.tf-nodejs-b::before {
+.tf-nextjs-b::before {
   content: "\ea39";
 }
 
-.tf-npm::before {
+.tf-nodejs::before {
   content: "\ea3a";
 }
 
-.tf-npm-alt::before {
+.tf-nodejs-b::before {
   content: "\ea3b";
 }
 
-.tf-npm-alt-b::before {
+.tf-npm::before {
   content: "\ea3c";
 }
 
-.tf-npm-b::before {
+.tf-npm-alt::before {
   content: "\ea3d";
 }
 
-.tf-nuxt::before {
+.tf-npm-alt-b::before {
   content: "\ea3e";
 }
 
-.tf-nuxt-b::before {
+.tf-npm-b::before {
   content: "\ea3f";
 }
 
-.tf-nuxt-pt1::before {
+.tf-nuxt::before {
   content: "\ea40";
 }
 
-.tf-nuxt-pt2::before {
+.tf-nuxt-b::before {
   content: "\ea41";
 }
 
-.tf-opencl::before {
+.tf-nuxt-pt1::before {
   content: "\ea42";
 }
 
-.tf-opencl-b::before {
+.tf-nuxt-pt2::before {
   content: "\ea43";
 }
 
-.tf-php::before {
+.tf-opencl::before {
   content: "\ea44";
 }
 
-.tf-php-b::before {
+.tf-opencl-b::before {
   content: "\ea45";
 }
 
-.tf-puppeteer::before {
+.tf-php::before {
   content: "\ea46";
 }
 
-.tf-puppeteer-b::before {
+.tf-php-b::before {
   content: "\ea47";
 }
 
-.tf-python::before {
+.tf-puppeteer::before {
   content: "\ea48";
 }
 
-.tf-python-b::before {
+.tf-puppeteer-b::before {
   content: "\ea49";
 }
 
-.tf-python-pt1::before {
+.tf-python::before {
   content: "\ea4a";
 }
 
-.tf-python-pt2::before {
+.tf-python-b::before {
   content: "\ea4b";
 }
 
-.tf-react::before {
+.tf-python-pt1::before {
   content: "\ea4c";
 }
 
-.tf-react-b::before {
+.tf-python-pt2::before {
   content: "\ea4d";
 }
 
-.tf-socketio::before {
+.tf-react::before {
   content: "\ea4e";
 }
 
-.tf-socketio-b::before {
+.tf-react-b::before {
   content: "\ea4f";
 }
 
-.tf-stripe::before {
+.tf-socketio::before {
   content: "\ea50";
 }
 
-.tf-stripe-b::before {
+.tf-socketio-b::before {
   content: "\ea51";
 }
 
-.tf-vite::before {
+.tf-stripe::before {
   content: "\ea52";
 }
 
-.tf-vite-b::before {
+.tf-stripe-b::before {
   content: "\ea53";
 }
 
-.tf-vite-pt1::before {
+.tf-tailwind::before {
   content: "\ea54";
 }
 
-.tf-vite-pt2::before {
+.tf-tailwind-b::before {
   content: "\ea55";
 }
 
-.tf-vue::before {
+.tf-vite::before {
   content: "\ea56";
 }
 
-.tf-vue-b::before {
+.tf-vite-b::before {
   content: "\ea57";
 }
 
-.tf-vue-pt1::before {
+.tf-vite-pt1::before {
   content: "\ea58";
 }
 
-.tf-vue-pt2::before {
+.tf-vite-pt2::before {
   content: "\ea59";
 }
 
-.tf-wordpress::before {
+.tf-vue::before {
   content: "\ea5a";
 }
 
-.tf-wordpress-b::before {
+.tf-vue-b::before {
   content: "\ea5b";
 }
 
-.tf-yarn::before {
+.tf-vue-pt1::before {
   content: "\ea5c";
 }
 
-.tf-yarn-b::before {
+.tf-vue-pt2::before {
   content: "\ea5d";
+}
+
+.tf-wordpress::before {
+  content: "\ea5e";
+}
+
+.tf-wordpress-b::before {
+  content: "\ea5f";
+}
+
+.tf-yarn::before {
+  content: "\ea60";
+}
+
+.tf-yarn-b::before {
+  content: "\ea61";
 }
 

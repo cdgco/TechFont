@@ -802,3 +802,8 @@ section {
   --tw-text-opacity: 1;
   color: rgb(34 116 154 / var(--tw-text-opacity));
 }
+
+.hover\:text-\[\#34B4EB\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(52 180 235 / var(--tw-text-opacity));
+}

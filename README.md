@@ -36,7 +36,7 @@ SVGs are saved to the svg-icons folder while AI files are saved to the illustrat
 
 To compile the new icons, run the script `npm run webfont`.
 
-To add colors for multi-layer icons, add a new line `tfLoadMultiColorIcon("name", layers, box)` for both the box and non-box versions in `techFontColor.js`, replacing the icon name and layer numbers, without -b, -clr or -pt.
+To add colors for multi-layer icons, add a new line `tfLoadMultiColorIcon("name", layers)` in `techFontColor.js`, replacing the icon name and layer numbers, without -b, -clr or -pt.
 
 Add the colors for each layer to `techFontColor.css` like so:
 ```
